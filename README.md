@@ -38,4 +38,22 @@ The queries were created for the number of retiring employees by the title is in
 ## Summary
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+According to the analysis, there may be 90,398 employees are going to be retire within  next year. This is extraordinary large number vacancies need to be fill.  Because of Bobby's analysis, Ph may be able to save time as well as money. Some positions may be terminated, unnecessary projects may be eliminated and some responsible positione may be filled by the pre-existing employees.
 
+There are over 1500 "qualified, retirement-ready employees" for the mentorship program. However, without knowing how many locations these employees are spread over, it's hard to begin to design such a project. Location information was, unfortunately, not included in the original CSVs.
+
+Two additional tables that could prove useful in preparing for the coming "Silver Tsunami" are as follows: 
+
+
+<img width="188" alt="total_sum_employees" src="https://user-images.githubusercontent.com/107137215/182660324-81df76f9-8c30-4cd0-9698-b516a34d4c97.png">
+
+The above table gives a information regarding how many employyes are going to be retiring from each departments. By looking at the table, production deparment and development department are going to face big loss.
+
+
+
+
+
+
+<img width="227" alt="retire_employee_salary" src="https://user-images.githubusercontent.com/107137215/182661000-92dcd2f8-3f26-4e09-ba49-b610bcb19e8e.png">
+
+The table provides information about a total salaries of retiring employees. The total amount is about in billions. If PH sepnds less money in new hiring placements, PH will save money as well.
