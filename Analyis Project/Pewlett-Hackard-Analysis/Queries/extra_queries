@@ -1,0 +1,21 @@
+-- Create table for retire employee salary
+DROP TABLE retire_salary;
+
+SELECT s.salary, rt.emp_no
+INTO retire_salary
+FROM ret_titles as rt
+JOIN salaries as s
+ON rt.emp_no = s.emp_no; 
+
+-- Run the table
+SELECT * FROM retire_salary;
+
+SELECT rs.salary, rs.emp_no, di.dept_name
+INTO ret_salary
+FROM retire_salary AS rs
+LEFT JOIN dept_info AS di
+ON rs.emp_no = di.emp_no;
+-- Count the retiree salary per department
+SELECT  SUM (salary), dept_name
+FROM ret_salary
+GROUP BY dept_name;
